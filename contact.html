@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凍声 | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">凍声</a>
+        </div>
+        <nav class="pc-nav">
+            <ul>
+                <li><a href="index.html">Top</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="lyrics.html">Lyrics</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-button sp-nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="sp-nav">
+            <ul>
+                <li><a href="index.html">Top</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="lyrics.html">Lyrics</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Contact</h2>
+        </section>
+        
+        <section class="contact-page inner fade-in-scroll">
+            <p class="contact-message">お仕事のご依頼、お問い合わせはこちらから。</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">送信</button>
+            </form>
+
+            <div class="contact-sns">
+                <p>SNSでも最新情報を発信しています。</p>
+                <div class="sns-links">
+                    <a href="https://x.com/" target="_blank" class="sns-icon" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="sns-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="sns-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 凍声 All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

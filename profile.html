@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凍声 | Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">凍声</a>
+        </div>
+        <nav class="pc-nav">
+            <ul>
+                <li><a href="index.html">Top</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="lyrics.html">Lyrics</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-button sp-nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="sp-nav">
+            <ul>
+                <li><a href="index.html">Top</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="movie.html">Movie</a></li>
+                <li><a href="lyrics.html">Lyrics</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Profile</h2>
+        </section>
+        
+        <section class="profile-page inner fade-in-scroll">
+            <div class="profile-photo">
+                <img src="images/profile.jpg" alt="アーティストの写真">
+            </div>
+            <div class="profile-text">
+                <h3>凍声（トオセ）</h3>
+                <p>経歴：〇〇県出身。〇〇年に活動を開始。抽象的な世界観と鮮やかな色彩を組み合わせた作品を制作しています。</p>
+                <p>メッセージ：ご覧いただきありがとうございます。作品を通して、皆さんの心に響くような表現を目指しています。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 凍声 All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
